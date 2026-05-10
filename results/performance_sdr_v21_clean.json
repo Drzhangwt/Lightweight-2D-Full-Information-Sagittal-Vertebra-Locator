@@ -1,0 +1,103 @@
+{
+  "model": "D:\\codex\\autoseg\\data\\models\\multivertebra_locator_full_info_v18_clean\\best_model.pt",
+  "split": "test",
+  "manifest_paths": [
+    "D:\\codex\\autoseg\\data\\manifests\\multivertebra_locator_manifest_full_info_v21_eval_clean.csv"
+  ],
+  "case_count": 183,
+  "landmark_count": 1097,
+  "thresholds_px": [
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "checkpoint": {
+    "vertebrae": [
+      "vertebrae_T12",
+      "vertebrae_L1",
+      "vertebrae_L2",
+      "vertebrae_L3",
+      "vertebrae_L4",
+      "vertebrae_L5"
+    ],
+    "best_val_loss": 10.754983107248941,
+    "epochs": 91,
+    "in_channels": 3,
+    "base_channels": 32
+  },
+  "metrics": {
+    "overall": {
+      "n": 1097,
+      "mean_distance_px": 2.8537,
+      "median_distance_px": 1.0,
+      "std_distance_px": 6.6867,
+      "sdr_at_5px": 0.920693,
+      "sdr_at_10px": 0.931632,
+      "sdr_at_15px": 0.938013,
+      "sdr_at_20px": 0.945305
+    },
+    "per_vertebra": {
+      "vertebrae_L1": {
+        "n": 183,
+        "mean_distance_px": 4.1628,
+        "median_distance_px": 1.0,
+        "std_distance_px": 9.3097,
+        "sdr_at_5px": 0.89071,
+        "sdr_at_10px": 0.896175,
+        "sdr_at_15px": 0.901639,
+        "sdr_at_20px": 0.901639
+      },
+      "vertebrae_L2": {
+        "n": 183,
+        "mean_distance_px": 3.9093,
+        "median_distance_px": 1.0,
+        "std_distance_px": 8.3448,
+        "sdr_at_5px": 0.885246,
+        "sdr_at_10px": 0.89071,
+        "sdr_at_15px": 0.896175,
+        "sdr_at_20px": 0.907104
+      },
+      "vertebrae_L3": {
+        "n": 183,
+        "mean_distance_px": 2.9978,
+        "median_distance_px": 1.0,
+        "std_distance_px": 6.7145,
+        "sdr_at_5px": 0.912568,
+        "sdr_at_10px": 0.923497,
+        "sdr_at_15px": 0.934426,
+        "sdr_at_20px": 0.939891
+      },
+      "vertebrae_L4": {
+        "n": 183,
+        "mean_distance_px": 1.5647,
+        "median_distance_px": 1.0,
+        "std_distance_px": 3.0595,
+        "sdr_at_5px": 0.95082,
+        "sdr_at_10px": 0.978142,
+        "sdr_at_15px": 0.989071,
+        "sdr_at_20px": 0.994536
+      },
+      "vertebrae_L5": {
+        "n": 182,
+        "mean_distance_px": 1.3945,
+        "median_distance_px": 1.0,
+        "std_distance_px": 2.4852,
+        "sdr_at_5px": 0.978022,
+        "sdr_at_10px": 0.978022,
+        "sdr_at_15px": 0.983516,
+        "sdr_at_20px": 0.994505
+      },
+      "vertebrae_T12": {
+        "n": 183,
+        "mean_distance_px": 3.0851,
+        "median_distance_px": 1.0,
+        "std_distance_px": 6.6674,
+        "sdr_at_5px": 0.907104,
+        "sdr_at_10px": 0.923497,
+        "sdr_at_15px": 0.923497,
+        "sdr_at_20px": 0.934426
+      }
+    }
+  }
+}

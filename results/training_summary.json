@@ -1,0 +1,27 @@
+{
+  "vertebrae": [
+    "vertebrae_T12",
+    "vertebrae_L1",
+    "vertebrae_L2",
+    "vertebrae_L3",
+    "vertebrae_L4",
+    "vertebrae_L5"
+  ],
+  "manifest_paths": [
+    "D:\\codex\\autoseg\\data\\manifests\\multivertebra_locator_manifest_full_info_v18_clean.csv"
+  ],
+  "epochs": 180,
+  "batch_size": 8,
+  "lr": 0.001,
+  "base_channels": 32,
+  "in_channels": 3,
+  "device": "cuda",
+  "train_count": 935,
+  "val_count": 186,
+  "test_count": 191,
+  "best_val_loss": 10.754983,
+  "test_loss": 16.296701,
+  "test_distance_px": 3.5211,
+  "checkpoint": "D:\\codex\\autoseg\\data\\models\\multivertebra_locator_full_info_v18_clean\\best_model.pt",
+  "history_json": "D:\\codex\\autoseg\\data\\models\\multivertebra_locator_full_info_v18_clean\\history.json"
+}

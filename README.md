@@ -92,3 +92,13 @@ More details are available in [`docs/methods_and_performance.md`](docs/methods_a
 ## Notes
 
 This repository is intended for academic research and reproducibility. It is not a regulatory-approved medical device and should not be used for clinical decision-making without independent validation.
+
+## License
+
+This repository uses a layered license:
+
+- Source code: Apache License 2.0
+- Model weights in `model/`: CC BY-NC 4.0, research and non-commercial use only
+- Documentation, figures, and result summaries: CC BY 4.0
+
+Commercial use, clinical product integration, or regulatory/medical-device deployment of the model weights requires explicit written permission.

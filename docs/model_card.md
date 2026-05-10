@@ -12,6 +12,8 @@ Research use for automated vertebral landmark localization and L3 slice selectio
 
 The model is not a regulatory-approved medical device and should not be used for clinical diagnosis or treatment decisions without independent validation.
 
+Commercial use, clinical product integration, or regulatory/medical-device deployment of the model weights is not permitted without explicit written permission.
+
 ## Inputs
 
 3D CT volumes readable by SimpleITK, including NIfTI, NRRD, MHA/MHD, and similar formats.
@@ -45,3 +47,9 @@ The model is not a regulatory-approved medical device and should not be used for
 ## Limitations
 
 Performance may degrade on scans with incomplete lumbar coverage, severe anatomic distortion, unusual acquisition orientation, metal artifacts, or distributions substantially different from the training cohort.
+
+## License
+
+- Source code: Apache License 2.0
+- Model weights: CC BY-NC 4.0, research and non-commercial use only
+- Documentation and figures: CC BY 4.0
